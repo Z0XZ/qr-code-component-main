@@ -1,6 +1,8 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+I am trying to get started learning frontend, so be gentle with my solution.
 
 ## Table of contents
 
@@ -19,21 +21,14 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
-### Screenshot
+### Screenshot of my finnished page
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+|             Web view              |               Mobile view               |
+| :-------------------------------: | :-------------------------------------: |
+| ![](design\WebPageScreenshot.png) | ![](design\WebPageScreenshotMobile.png) |
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -43,61 +38,74 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Desktop-first workflow
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I have done some frontend a long time ago, and back then I did not know much so for me this was a project to recap some of my own knowledge. I know ting can be made better and easier.
 
-To see how you can add code snippets, see below:
+Somewere in te back of my head I felt like it would be best to organize the content of the card in an unordered list since all the information is linked together somehow.
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div id="card">
+  <ul id="carditems">
+    <li>
+      <img
+        src="/images/image-qr-code.png"
+        alt="QR-code link to frontendmentor.io"
+        width=""
+      />
+    </li>
+    <li>
+      <h2>Improve your front-end skills by building projects</h2>
+    </li>
+    <li>
+      <p>
+        Scan the QR code to visit Frontend Mentor and take your coding skills to the
+        next level
+      </p>
+    </li>
+  </ul>
+</div>
 ```
+
+For styling the hardest part was to get the size of the card right and those bloody margins right. There is proabably a simpler way, but what I did was to put 39% margins on each side of the card to get the size I wanted.
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+#card {
+  margin: 10% 39%;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 2px 4px 20px rgba(123, 135, 157, 0.3);
+  border-radius: 10px;
+  text-align: center;
+  padding: 0;
+  position: relative;
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+I didnt like the way the text on the card scaled and ruined the card itself, so I sized the text to 1.1vw instead of 15px.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Lastly I made the page more responsive to work on mobile devices.
+
+```css
+@media screen and (max-width: 700px) {
+  #card {
+    margin: 10% 10%;
+    font-size: 15px;
+  }
+}
+```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I want to get better with css in general. More specifically I would like to get better at flexbox and get more controll on how margins and padding overlaps.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [CSS responsive text](https://www.w3schools.com/howto/howto_css_responsive_text.asp) - W3 Schools helped me remembering how to write responsive pages.
+- [Flexboxsheet](https://flexboxsheet.com/) - This is an amazing cheat sheet really helped me with flexbox and I really recommend it for anyone using flexbox.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Website - [Jon Bjarne Bø](https://www.jonbo.no)
+- Frontend Mentor - [@Z0XZ](https://www.frontendmentor.io/profile/Z0XZ)
