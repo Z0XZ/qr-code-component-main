@@ -15,17 +15,14 @@ I am trying to get started learning frontend, so be gentle with my solution.
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
 ### Screenshot of my finnished page
 
-|             Web view              |               Mobile view               |
-| :-------------------------------: | :-------------------------------------: |
-| ![](design\WebPageScreenshot.png) | ![](design\WebPageScreenshotMobile.png) |
+|                                           Web view                                           |                                            Mobile view                                             |
+| :------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: |
+| ![](https://github.com/Z0XZ/qr-code-component-main/blob/master/design/WebPageScreenshot.png) | ![](https://github.com/Z0XZ/qr-code-component-main/blob/master/design/WebPageScreenshotMobile.png) |
 
 ### Links
 
