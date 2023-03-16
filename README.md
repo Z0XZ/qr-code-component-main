@@ -26,7 +26,7 @@ I am trying to get started learning frontend, so be gentle with my solution.
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Project 1](https://z0xz.github.io/qr-code-component-main/)
 
 ## My process
 
