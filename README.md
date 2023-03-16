@@ -22,7 +22,7 @@ I am trying to get started learning frontend, so be gentle with my solution.
 
 |                                           Web view                                           |                                            Mobile view                                             |
 | :------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: |
-| ![](https://github.com/Z0XZ/qr-code-component-main/blob/master/design/WebPageScreenshot.png) | ![](https://github.com/Z0XZ/qr-code-component-main/blob/master/design/WebPageScreenshotMobile.png) |
+| ![](https://github.com/Z0XZ/qr-code-component-main/blob/master/design/WebPageScreenshot.png?raw=true) | ![](https://github.com/Z0XZ/qr-code-component-main/blob/master/design/WebPageScreenshotMobile.png?raw=true) |
 
 ### Links
 
